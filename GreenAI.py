@@ -1,7 +1,7 @@
 import xarray as xr
 import matplotlib.pyplot as plt
 
-ds = xr.open_dataset(r"C:\Users\quent\Documents\Green AI\973ef39a27234cbf432833b4e450761\global-gridded-annual-glacier-mass-change_1975-76.nc4")
+ds = xr.open_dataset(r"973ef39a27234cbf432833b4e450761\global-gridded-annual-glacier-mass-change_1975-76.nc4")
 
 ds_arctic = ds.sel(lat=slice(85, 66))
 
@@ -34,3 +34,4 @@ for val in values:
     plt.ylabel('Latitude')
     plt.title(val)
     plt.show()
+
