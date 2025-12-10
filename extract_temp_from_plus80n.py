@@ -1,3 +1,4 @@
+#Quentin
 import pandas as pd
 import glob
 import os
@@ -55,3 +56,4 @@ for file in sorted(files5):
         
 df_new.columns = ["date", "temp"]
 df_new.to_csv("temperature.csv", index=False)
+
