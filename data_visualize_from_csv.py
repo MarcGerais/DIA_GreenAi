@@ -1,3 +1,4 @@
+#Quentin
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -37,3 +38,4 @@ for val in values:
     plt.ylabel('Latitude')
     plt.title(val)
     plt.show()
+
